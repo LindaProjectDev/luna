@@ -1,0 +1,10 @@
+# Java / Maven
+target/
+*.log
+
+# Docker
+.env
+
+# OS
+.DS_Store
+

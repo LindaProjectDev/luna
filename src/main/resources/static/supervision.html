@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Luna • Supervision & Monitoring</title>
+  <style>
+    :root { --fuchsia:#ff2ea6; --bg:#0b0f1a; --card:#11182a; --text:#e9eefc; --muted:#a8b3cf; }
+    * { box-sizing: border-box; }
+    body { margin:0; font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial;
+           background: radial-gradient(1200px 600px at 80% 10%, rgba(255,46,166,.18), transparent 60%),
+                       radial-gradient(900px 520px at 20% 15%, rgba(104,83,255,.18), transparent 55%),
+                       var(--bg);
+           color: var(--text); padding: 26px 20px; }
+    .wrap { max-width: 980px; margin: 0 auto; }
+    .bar { display:flex; align-items:center; justify-content:space-between; gap:12px; margin-bottom: 14px; }
+    .brand { display:flex; align-items:center; gap:10px; }
+    .dot { width:10px; height:10px; border-radius:999px; background: var(--fuchsia); box-shadow: 0 0 16px rgba(255,46,166,.55); }
+    a { color: var(--text); text-decoration:none; border-bottom: 1px dashed rgba(255,46,166,.55); }
+    a:hover { border-bottom-style: solid; }
+    .card { background: rgba(17,24,42,.74);
+            border: 1px solid rgba(255,255,255,.10); border-radius: 18px; padding: 18px; }
+    h1 { margin: 6px 0 8px; font-size: 22px; }
+    p { margin: 0; color: var(--muted); line-height:1.5; }
+    .row { display:flex; flex-wrap:wrap; gap:12px; margin-top: 14px; }
+    .pill { padding: 10px 12px; border-radius: 999px; border: 1px solid rgba(255,255,255,.12); background: rgba(255,255,255,.03); }
+    .statusUp { border-color: rgba(50,213,131,.35); background: rgba(50,213,131,.08); }
+    .statusDown { border-color: rgba(255,77,79,.35); background: rgba(255,77,79,.08); }
+    code { color: #ffd1ee; }
+    pre { margin-top: 14px; padding: 14px; border-radius: 14px; border: 1px solid rgba(255,255,255,.10);
+          background: rgba(0,0,0,.20); overflow:auto; color: #dbe3ff; }
+    button { cursor:pointer; border-radius: 12px; border: 1px solid rgba(255,255,255,.14);
+             background: rgba(17,24,42,.55); color: var(--text); padding: 10px 12px; }
+    button:hover { border-color: rgba(255,46,166,.55); box-shadow: 0 0 0 3px rgba(255,46,166,.12); }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="bar">
+      <div class="brand"><span class="dot"></span><span>Luna</span></div>
+      <div style="display:flex; gap:12px; align-items:center;">
+        <a href="/">Accueil</a>
+        <button id="refreshBtn" type="button">Rafraîchir</button>
+      </div>
+    </div>
+
+    <div class="card">
+      <h1>Supervision & Monitoring</h1>
+      <p>Vue “humaine” basée sur <code>/actuator/health</code>. L’endpoint JSON reste la source de vérité pour l’automatisation.</p>
+
+      <div class="row" style="margin-top:16px;">
+        <div id="statusPill" class="pill">Statut: …</div>
+        <div id="groupsPill" class="pill">Groupes: …</div>
+        <div class="pill">Endpoint: <code>/actuator/health</code></div>
+      </div>
+
+      <pre id="raw">Chargement…</pre>
+    </div>
+  </div>
+
+  <script>
+    async function loadHealth() {
+      const statusPill = document.getElementById("statusPill");
+      const groupsPill = document.getElementById("groupsPill");
+      const raw = document.getElementById("raw");
+
+      statusPill.className = "pill";
+      statusPill.textContent = "Statut: chargement…";
+      groupsPill.textContent = "Groupes: chargement…";
+      raw.textContent = "Chargement…";
+
+      try {
+        const res = await fetch("/actuator/health", { cache: "no-store" });
+        const data = await res.json();
+
+        const status = (data.status || "UNKNOWN").toUpperCase();
+        const groups = Array.isArray(data.groups) ? data.groups.join(", ") : "—";
+
+        statusPill.textContent = "Statut: " + status;
+        groupsPill.textContent = "Groupes: " + groups;
+
+        if (status === "UP") statusPill.classList.add("statusUp");
+        else statusPill.classList.add("statusDown");
+
+        raw.textContent = JSON.stringify(data, null, 2);
+      } catch (e) {
+        statusPill.textContent = "Statut: ERREUR";
+        statusPill.classList.add("statusDown");
+        groupsPill.textContent = "Groupes: —";
+        raw.textContent = "Impossible de lire /actuator/health.\n\n" + (e && e.message ? e.message : e);
+      }
+    }
+
+    document.getElementById("refreshBtn").addEventListener("click", loadHealth);
+    loadHealth();
+  </script>
+</body>
+</html>
