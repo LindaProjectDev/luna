@@ -1,0 +1,32 @@
+name: Feature request
+description: Proposer une amélioration
+title: "[FEATURE] "
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: goal
+    attributes:
+      label: Objectif
+      description: Quel problème ça résout ?
+      placeholder: "Je veux ..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposition
+      description: Comment tu imagines la solution.
+      placeholder: "On pourrait ..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: accept
+    attributes:
+      label: Critères d'acceptation
+      placeholder: |
+        - [ ] ...
+        - [ ] ...
+    validations:
+      required: false

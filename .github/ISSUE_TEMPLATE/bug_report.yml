@@ -1,0 +1,50 @@
+name: Bug report
+description: Signaler un bug
+title: "[BUG] "
+labels: ["bug"]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: Description
+      description: Explique le problème clairement.
+      placeholder: "Quand je fais ..., j'obtiens ..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Étapes pour reproduire
+      description: Liste des étapes.
+      placeholder: |
+        1. ...
+        2. ...
+        3. ...
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Résultat attendu
+      placeholder: "Je devrais obtenir ..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs / captures
+      description: Colle les logs pertinents (sans secrets).
+      render: shell
+    validations:
+      required: false
+
+  - type: input
+    id: env
+    attributes:
+      label: Environnement
+      placeholder: "Ubuntu 22.04, Java 17, Docker 25..."
+    validations:
+      required: false
