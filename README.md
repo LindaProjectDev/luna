@@ -1,3 +1,4 @@
+![Backend CI](https://github.com/LindaProjectDev/luna/actions/workflows/backend-ci.yml/badge.svg)
 # Luna
 
 Backend Spring Boot (Java 17) conteneurisé, orienté DevOps (healthcheck, endpoints techniques, CI GitHub Actions).
