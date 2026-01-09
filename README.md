@@ -20,3 +20,10 @@ Tests recommandés :
 ```bash
 curl -i http://localhost:10080/actuator/health
 curl -i http://localhost:10080/hello
+
+## Scripts utiles
+
+```bash
+./scripts/test.sh
+./scripts/dev.sh
+./scripts/docker.sh luna:local 10080
