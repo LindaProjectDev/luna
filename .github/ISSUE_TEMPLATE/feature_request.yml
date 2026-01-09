@@ -1,0 +1,17 @@
+name: Feature request
+description: Proposer une amélioration
+title: "[FEAT] "
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: goal
+    attributes:
+      label: Objectif
+      description: Quel besoin ça couvre ?
+    validations:
+      required: true
+  - type: textarea
+    id: scope
+    attributes:
+      label: Périmètre
+      description: Ce que ça inclut / exclut
