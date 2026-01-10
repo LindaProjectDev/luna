@@ -1,12 +1,3 @@
-
----
-
-## Le “truc” qui te manque : le fichier hero (sinon pas de style)
-Crée ce fichier dans ton repo :
-
-**`docs/assets/hero-luna.svg`**
-
-```svg
 <svg xmlns="http://www.w3.org/2000/svg" width="1600" height="420" viewBox="0 0 1600 420">
   <defs>
     <radialGradient id="bg" cx="50%" cy="0%" r="85%">
@@ -56,5 +47,5 @@ Crée ce fichier dans ton repo :
   <rect x="80" y="315" width="520" height="44" rx="10" fill="#14001f" stroke="#ff2bd4" stroke-opacity="0.35"/>
   <text x="100" y="343" font-size="14"
         font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace"
-        fill="#f5e9ff" opacity="0.95">Repo monolith (backend + frontend) — vitrine README “néon fuchsia”</text>
+        fill="#f5e9ff" opacity="0.95">Repo monolith (backend + frontend) — vitrine README néon fuchsia</text>
 </svg>
