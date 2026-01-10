@@ -3,7 +3,7 @@
 <!-- ===================================================== -->
 
 <p align="center">
-  <a href="https://lindaprojectdev.github.io/luna/" target="_blank">
+  <a href="http://35.181.96.76:30710/?backend=http://35.181.96.76:30080/hello" target="_blank">
     <img src="https://img.shields.io/badge/🚀%20OPEN%20LUNA%20MISSION%20CONTROL-b026ff?style=for-the-badge&labelColor=0b0b12" />
   </a>
 </p>
