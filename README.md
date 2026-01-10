@@ -1,58 +1,119 @@
-cat > README.md <<'EOF'
-<div align="center">
+<!-- =============================== -->
+<!--   PROFIL GITHUB — LUNA 🌙       -->
+<!-- =============================== -->
 
-<img src="https://capsule-render.vercel.app/api?type=waving&height=220&text=LUNA&fontAlign=50&fontAlignY=40&color=0:ff00cc,100:7a00ff&fontColor=ffffff" alt="LUNA banner" />
+<h1 align="center" style="color:#ff2fa0;">
+  🌙 LUNA — Profil Développeuse
+</h1>
 
-<br/>
-
-<h3>Metrics • Dashboard • Visual Identity</h3>
-
-<p>
-  <img alt="badge" src="https://img.shields.io/badge/style-fuchsia-ff00cc?style=for-the-badge" />
-  <img alt="badge" src="https://img.shields.io/badge/status-active-7a00ff?style=for-the-badge" />
-  <img alt="badge" src="https://img.shields.io/badge/build-ready-ff00cc?style=for-the-badge" />
+<p align="center">
+  <b>Build. Observe. Improve.</b><br/>
+  Développement • Architecture • Monitoring • Qualité
 </p>
 
-<p><b>LUNA</b> is a clean, visual, fuchsia-themed presentation layer for GitHub/project metrics.</p>
-
-</div>
-
----
-
-## ✨ Overview
-
-- **Fuchsia identity** (banner + badges + cards)
-- **Fast at-a-glance** project view
-- **Clean** repo presentation (no code impact)
+<p align="center">
+  <img src="https://img.shields.io/badge/Focus-Monitoring-ff2fa0?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Style-Clean%20%26%20Scalable-ff2fa0?style=for-the-badge"/>
+</p>
 
 ---
 
-## 📊 Live Cards
+## 🧭 Présentation
 
-<div align="center">
+Je conçois des systèmes **lisibles**, **maintenables** et **observables**.  
+Mon attention se porte autant sur **ce qui fonctionne** que sur **ce qui se mesure**.
 
-<img src="https://github-readme-stats.vercel.app/api?username=LindaProjectDev&show_icons=true&hide_border=true&title_color=ff00cc&icon_color=ff00cc&text_color=ffffff&bg_color=0d1117" height="165" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=LindaProjectDev&layout=compact&hide_border=true&title_color=ff00cc&text_color=ffffff&bg_color=0d1117" height="165" />
-
-<br/>
-
-<img src="https://streak-stats.demolab.com?user=LindaProjectDev&hide_border=true&background=0d1117&ring=ff00cc&fire=ff00cc&currStreakLabel=ff00cc&sideLabels=ffffff&currStreakNum=ffffff&sideNums=ffffff&dates=ffffff" height="170" />
-
-</div>
+- 📊 Suivi d’activité et métriques
+- 🧠 Vision long terme & amélioration continue
+- ⚙️ Automatisation, qualité, fiabilité
+- 🌙 Sens du détail, calme, précision
 
 ---
 
-## 🧩 Project
+## 📈 GitHub Metrics — Vue globale
 
-- Repo: `LindaProjectDev/luna`
-- Focus: **presentation + metrics**
-- Theme: **fuchsia on dark**
+<p align="center">
+  <img src="https://metrics.lecoq.io/LindaProjectDev
+    ?template=classic
+    &config.timezone=Europe/Paris
+    &config.display=large
+    &config.octicon=true
+    &config.twemoji=true
+    &config.padding=8%
+
+    &base.header=0
+    &base.metadata=0
+    &base.community=0
+    &base.repositories=1
+    &base.activity=1
+
+    &languages=1
+    &languages.limit=8
+    &languages.threshold=0%
+    &languages.colors=github
+    &languages.sections=most-used
+    &languages.indepth=true
+
+    &habits=1
+    &habits.facts=true
+    &habits.charts=true
+
+    &activity=1
+    &activity.limit=5
+    &activity.days=14
+    &activity.filter=all
+
+    &isocalendar=1
+    &isocalendar.duration=half-year
+
+    &theme=dark
+  " />
+</p>
 
 ---
 
-## ✅ Notes
+## 🖥️ Monitoring & activité
 
-- This README changes **only** the repository presentation on GitHub.
-- It does **not** change frontend/back-end code or behavior.
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api
+    ?username=LindaProjectDev
+    &show_icons=true
+    &hide_border=true
+    &bg_color=0d1117
+    &title_color=ff2fa0
+    &icon_color=ff2fa0
+    &text_color=c9d1d9
+  "/>
+</p>
 
-EOF
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com
+    ?user=LindaProjectDev
+    &theme=dark
+    &ring=ff2fa0
+    &fire=ff2fa0
+    &currStreakLabel=ff2fa0
+    &hide_border=true
+  "/>
+</p>
+
+---
+
+## 🛠️ Stack & outils
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=js,ts,python,vue,react,node,docker,linux,git&theme=dark" />
+</p>
+
+---
+
+## 🌒 Philosophie
+
+> *Ce qui n’est pas observable n’est pas maîtrisable.*  
+> *Ce qui est maîtrisé peut évoluer.*
+
+---
+
+<p align="center" style="color:#ff2fa0;">
+  🌙 Luna — construire avec sens, mesurer avec rigueur
+</p>
