@@ -1,110 +1,125 @@
-<!-- ======================= -->
-<!-- 🌙 LUNA — DEVOPS PLATFORM -->
-<!-- ======================= -->
+<!-- ===================================================== -->
+<!-- 🌙 LUNA — DEVOPS MISSION CONTROL / ULTRA IMMERSIVE -->
+<!-- ===================================================== -->
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:b026ff,50:8b2cff,100:6a00ff&height=120&section=header&text=🌙%20LUNA&fontSize=52&fontColor=0b0b12&animation=fadeIn" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:b026ff,50:8b2cff,100:6a00ff&height=180&section=header&text=🌙%20LUNA&fontSize=64&fontColor=ffffff&animation=fadeIn&fontAlignY=35" />
 </p>
 
 <p align="center">
-  <b>Plateforme applicative DevOps — ECF Administrateur Système DevOps</b><br/>
-  <sub>Automatiser • Orchestrer • Observer • Sécuriser</sub>
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=18&duration=2200&pause=600&color=D36BFF&center=true&vCenter=true&width=900&lines=DEVOPS+MISSION+CONTROL;AWS+%7C+Docker+%7C+Kubernetes+(k3s);CI%2FCD+Fully+Automated;Observability+Always+On;Automate.+Observe.+Improve." />
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/STATUS-OP%C3%89RATIONNEL-b026ff?style=for-the-badge&labelColor=0b0b12" />
-  <img src="https://img.shields.io/badge/DEVOPS-AWS%20%7C%20Docker%20%7C%20Kubernetes-b026ff?style=for-the-badge&labelColor=0b0b12" />
-  <img src="https://img.shields.io/badge/OBSERVABILIT%C3%89-Prometheus%20%7C%20Grafana%20%7C%20ELK-b026ff?style=for-the-badge&labelColor=0b0b12" />
+  <img src="https://img.shields.io/badge/STATUS-LIVE-b026ff?style=for-the-badge&labelColor=0b0b12" />
+  <img src="https://img.shields.io/badge/MODE-PRODUCTION%20READY-b026ff?style=for-the-badge&labelColor=0b0b12" />
+  <img src="https://img.shields.io/badge/SECURITY-LEAST%20PRIVILEGE-b026ff?style=for-the-badge&labelColor=0b0b12" />
 </p>
 
 <p align="center">
+  <img src="https://img.shields.io/badge/AWS-EC2-b026ff?style=for-the-badge&labelColor=0b0b12" />
+  <img src="https://img.shields.io/badge/KUBERNETES-k3s-b026ff?style=for-the-badge&labelColor=0b0b12" />
   <img src="https://img.shields.io/badge/CI%2FCD-GitHub%20Actions-b026ff?style=for-the-badge&labelColor=0b0b12" />
   <img src="https://img.shields.io/badge/IaC-Terraform-b026ff?style=for-the-badge&labelColor=0b0b12" />
-  <img src="https://img.shields.io/badge/RUNTIME-k3s%20on%20EC2-b026ff?style=for-the-badge&labelColor=0b0b12" />
 </p>
 
 ---
 
-## Tableau de bord “Live” (widgets)
+## 🧠 SYSTEM STATUS (LIVE HUD)
+
+| SYSTEM | STATE | SIGNAL |
+|------|------|------|
+| Backend API | ONLINE | 🟣 HEALTHY |
+| Frontend | ONLINE | 🟣 SERVING |
+| Kubernetes | RUNNING | 🟣 STABLE |
+| CI/CD | ENABLED | 🟣 AUTOMATED |
+| Observability | ACTIVE | 🟣 FULL |
+
+---
+
+## 🎛️ DEVOPS DASHBOARD (WIDGET GRID)
 
 <table>
-  <tr>
-    <td width="33%">
-      <b>API Health</b><br/>
-      <img src="https://img.shields.io/badge/actuator-health-b026ff?style=for-the-badge&labelColor=0b0b12" /><br/>
-      <sub>Endpoint: <code>/actuator/health</code></sub>
-    </td>
-    <td width="33%">
-      <b>Frontend</b><br/>
-      <img src="https://img.shields.io/badge/nginx-serving-b026ff?style=for-the-badge&labelColor=0b0b12" /><br/>
-      <sub>NodePort / Ingress (selon setup)</sub>
-    </td>
-    <td width="33%">
-      <b>Cluster</b><br/>
-      <img src="https://img.shields.io/badge/k3s-running-b026ff?style=for-the-badge&labelColor=0b0b12" /><br/>
-      <sub>EC2 Free Tier</sub>
-    </td>
-  </tr>
-</table>
+<tr>
+<td width="25%">
 
-<table>
-  <tr>
-    <td width="25%">
-      <b>Grafana</b><br/>
-      <img src="https://img.shields.io/badge/dashboards-ready-b026ff?style=for-the-badge&labelColor=0b0b12" />
-    </td>
-    <td width="25%">
-      <b>Prometheus</b><br/>
-      <img src="https://img.shields.io/badge/metrics-scraping-b026ff?style=for-the-badge&labelColor=0b0b12" />
-    </td>
-    <td width="25%">
-      <b>Kibana</b><br/>
-      <img src="https://img.shields.io/badge/logs-search-b026ff?style=for-the-badge&labelColor=0b0b12" />
-    </td>
-    <td width="25%">
-      <b>Elasticsearch</b><br/>
-      <img src="https://img.shields.io/badge/indexing-ok-b026ff?style=for-the-badge&labelColor=0b0b12" />
-    </td>
-  </tr>
+### 🧩 API CORE
+<img src="https://img.shields.io/badge/Spring%20Boot-REST-b026ff?style=for-the-badge&labelColor=0b0b12" />
+<img src="https://img.shields.io/badge/Health-OK-b026ff?style=for-the-badge&labelColor=0b0b12" />
+
+`/api/hello`  
+`/actuator/health`
+
+</td>
+
+<td width="25%">
+
+### 🎨 FRONTEND
+<img src="https://img.shields.io/badge/Nginx-Serving-b026ff?style=for-the-badge&labelColor=0b0b12" />
+<img src="https://img.shields.io/badge/UI-Static-b026ff?style=for-the-badge&labelColor=0b0b12" />
+
+NodePort / Ingress
+
+</td>
+
+<td width="25%">
+
+### ☸️ KUBERNETES
+<img src="https://img.shields.io/badge/Cluster-k3s-b026ff?style=for-the-badge&labelColor=0b0b12" />
+<img src="https://img.shields.io/badge/Pods-Stable-b026ff?style=for-the-badge&labelColor=0b0b12" />
+
+Deployments + Services
+
+</td>
+
+<td width="25%">
+
+### ☁️ CLOUD
+<img src="https://img.shields.io/badge/AWS-EC2-b026ff?style=for-the-badge&labelColor=0b0b12" />
+<img src="https://img.shields.io/badge/Free--Tier-Optimized-b026ff?style=for-the-badge&labelColor=0b0b12" />
+
+Secure SG / VPC
+
+</td>
+</tr>
 </table>
 
 ---
 
-## Objectif du projet
+## 📊 OBSERVABILITY MATRIX
 
-**LUNA** est une application web conçue et déployée dans le cadre de l’**ECF Administrateur Système DevOps**.  
-Le projet démontre la **mise en œuvre complète d’une chaîne DevOps**, du provisioning cloud jusqu’à l’exploitation supervisée.
+<p align="center">
+  <img src="https://img.shields.io/badge/Prometheus-Metrics-b026ff?style=for-the-badge&labelColor=0b0b12" />
+  <img src="https://img.shields.io/badge/Grafana-Dashboards-b026ff?style=for-the-badge&labelColor=0b0b12" />
+  <img src="https://img.shields.io/badge/ELK-Logs-b026ff?style=for-the-badge&labelColor=0b0b12" />
+</p>
 
-**Focus :**
-- Automatisation  
-- Conteneurisation  
-- Orchestration Kubernetes  
-- Déploiement continu  
-- Observabilité (logs & métriques)  
+- Metrics Kubernetes + applicatives
+- Logs centralisés backend / frontend
+- Dashboards temps réel
+- Diagnostic rapide incident
 
 ---
 
-## Architecture générale (immersive)
+## 🧬 ARCHITECTURE MAP
 
 ```mermaid
 %%{init: {"theme":"base","themeVariables":{
-  "primaryColor":"#b026ff",
-  "primaryTextColor":"#0b0b12",
-  "primaryBorderColor":"#8b2cff",
-  "lineColor":"#d36bff",
-  "secondaryColor":"#0b0b12",
-  "tertiaryColor":"#141428",
-  "fontFamily":"Inter, ui-sans-serif, system-ui"
+"primaryColor":"#b026ff",
+"primaryTextColor":"#0b0b12",
+"primaryBorderColor":"#8b2cff",
+"lineColor":"#d36bff",
+"secondaryColor":"#0b0b12",
+"tertiaryColor":"#141428"
 }}}%%
 flowchart LR
-  U[User] -->|HTTPS| FE[Nginx / Frontend]
-  FE -->|REST| API[Spring Boot API :8080]
-  API -->|logs| ELK[(Elasticsearch)]
-  ELK --> KIB[Kibana]
-  API -->|metrics| PROM[Prometheus]
-  PROM --> GRAF[Grafana]
-  subgraph AWS[AWS - Free Tier]
-    EC2[EC2 instance] --> K3S[k3s cluster]
-    K3S --> FE
-    K3S --> API
-  end
+U[User] --> FE[Nginx Frontend]
+FE --> API[Spring Boot API]
+API -->|logs| ELK[(Elasticsearch)]
+API -->|metrics| PROM[Prometheus]
+PROM --> GRAF[Grafana]
+subgraph AWS
+EC2 --> K3S[k3s]
+K3S --> FE
+K3S --> API
+end
