@@ -3,6 +3,20 @@
 <!-- ===================================================== -->
 
 <p align="center">
+  <a href="https://lindaprojectdev.github.io/luna/" target="_blank">
+    <img src="https://img.shields.io/badge/🚀%20OPEN%20LUNA%20MISSION%20CONTROL-b026ff?style=for-the-badge&labelColor=0b0b12" />
+  </a>
+</p>
+
+<p align="center">
+  <sub>
+    👉 Interface immersive (GitHub Pages) — README affiché <b>avant</b> les fichiers
+  </sub>
+</p>
+
+<hr/>
+
+<p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:b026ff,50:8b2cff,100:6a00ff&height=180&section=header&text=🌙%20LUNA&fontSize=64&fontColor=ffffff&animation=fadeIn&fontAlignY=35" />
 </p>
 
@@ -94,10 +108,10 @@ Secure SG / VPC
   <img src="https://img.shields.io/badge/ELK-Logs-b026ff?style=for-the-badge&labelColor=0b0b12" />
 </p>
 
-- Metrics Kubernetes + applicatives
-- Logs centralisés backend / frontend
-- Dashboards temps réel
-- Diagnostic rapide incident
+- Metrics Kubernetes + applicatives  
+- Logs centralisés backend / frontend  
+- Dashboards temps réel  
+- Diagnostic rapide incident  
 
 ---
 
