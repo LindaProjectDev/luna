@@ -1,119 +1,116 @@
-<!-- =============================== -->
-<!--   PROFIL GITHUB — LUNA 🌙       -->
-<!-- =============================== -->
-
-<h1 align="center" style="color:#ff2fa0;">
-  🌙 LUNA — Profil Développeuse
-</h1>
+<!-- ======================= -->
+<!-- 🌙 LUNA — DEVOPS PLATFORM -->
+<!-- ======================= -->
 
 <p align="center">
-  <b>Build. Observe. Improve.</b><br/>
-  Développement • Architecture • Monitoring • Qualité
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:ff2fa0,100:ff7ac8&height=120&section=header&text=🌙%20LUNA&fontSize=52&fontColor=0b0b10&animation=fadeIn" />
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Focus-Monitoring-ff2fa0?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/Style-Clean%20%26%20Scalable-ff2fa0?style=for-the-badge"/>
+  <b>Plateforme applicative DevOps — ECF Administrateur Système DevOps</b><br/>
+  <sub>Automatiser • Orchestrer • Observer • Sécuriser</sub>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/STATUS-OP%C3%89RATIONNEL-ff2fa0?style=for-the-badge&labelColor=0b0b10" />
+  <img src="https://img.shields.io/badge/DEVOPS-AWS%20%7C%20Docker%20%7C%20Kubernetes-ff2fa0?style=for-the-badge&labelColor=0b0b10" />
+  <img src="https://img.shields.io/badge/OBSERVABILIT%C3%89-Prometheus%20%7C%20Grafana%20%7C%20ELK-ff2fa0?style=for-the-badge&labelColor=0b0b10" />
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/CI%2FCD-GitHub%20Actions-ff2fa0?style=for-the-badge&labelColor=0b0b10" />
+  <img src="https://img.shields.io/badge/IaC-Terraform-ff2fa0?style=for-the-badge&labelColor=0b0b10" />
+  <img src="https://img.shields.io/badge/RUNTIME-k3s%20on%20EC2-ff2fa0?style=for-the-badge&labelColor=0b0b10" />
 </p>
 
 ---
 
-## 🧭 Présentation
+## Tableau de bord “Live” (widgets)
 
-Je conçois des systèmes **lisibles**, **maintenables** et **observables**.  
-Mon attention se porte autant sur **ce qui fonctionne** que sur **ce qui se mesure**.
+> Remplace les `YOUR_*` par tes vraies URLs / domaines.
 
-- 📊 Suivi d’activité et métriques
-- 🧠 Vision long terme & amélioration continue
-- ⚙️ Automatisation, qualité, fiabilité
-- 🌙 Sens du détail, calme, précision
+<table>
+  <tr>
+    <td width="33%">
+      <b>API Health</b><br/>
+      <img src="https://img.shields.io/badge/actuator-health-ff2fa0?style=for-the-badge&labelColor=0b0b10" /><br/>
+      <sub>Endpoint: <code>/actuator/health</code></sub>
+    </td>
+    <td width="33%">
+      <b>Frontend</b><br/>
+      <img src="https://img.shields.io/badge/nginx-serving-ff2fa0?style=for-the-badge&labelColor=0b0b10" /><br/>
+      <sub>NodePort / Ingress (selon setup)</sub>
+    </td>
+    <td width="33%">
+      <b>Cluster</b><br/>
+      <img src="https://img.shields.io/badge/k3s-running-ff2fa0?style=for-the-badge&labelColor=0b0b10" /><br/>
+      <sub>EC2 Free Tier</sub>
+    </td>
+  </tr>
+</table>
 
----
-
-## 📈 GitHub Metrics — Vue globale
-
-<p align="center">
-  <img src="https://metrics.lecoq.io/LindaProjectDev
-    ?template=classic
-    &config.timezone=Europe/Paris
-    &config.display=large
-    &config.octicon=true
-    &config.twemoji=true
-    &config.padding=8%
-
-    &base.header=0
-    &base.metadata=0
-    &base.community=0
-    &base.repositories=1
-    &base.activity=1
-
-    &languages=1
-    &languages.limit=8
-    &languages.threshold=0%
-    &languages.colors=github
-    &languages.sections=most-used
-    &languages.indepth=true
-
-    &habits=1
-    &habits.facts=true
-    &habits.charts=true
-
-    &activity=1
-    &activity.limit=5
-    &activity.days=14
-    &activity.filter=all
-
-    &isocalendar=1
-    &isocalendar.duration=half-year
-
-    &theme=dark
-  " />
-</p>
+<table>
+  <tr>
+    <td width="25%">
+      <b>Grafana</b><br/>
+      <img src="https://img.shields.io/badge/dashboards-ready-ff2fa0?style=for-the-badge&labelColor=0b0b10" /><br/>
+      <sub><a href="YOUR_GRAFANA_URL">Open</a></sub>
+    </td>
+    <td width="25%">
+      <b>Prometheus</b><br/>
+      <img src="https://img.shields.io/badge/metrics-scraping-ff2fa0?style=for-the-badge&labelColor=0b0b10" /><br/>
+      <sub><a href="YOUR_PROMETHEUS_URL">Open</a></sub>
+    </td>
+    <td width="25%">
+      <b>Kibana</b><br/>
+      <img src="https://img.shields.io/badge/logs-search-ff2fa0?style=for-the-badge&labelColor=0b0b10" /><br/>
+      <sub><a href="YOUR_KIBANA_URL">Open</a></sub>
+    </td>
+    <td width="25%">
+      <b>Elasticsearch</b><br/>
+      <img src="https://img.shields.io/badge/indexing-ok-ff2fa0?style=for-the-badge&labelColor=0b0b10" /><br/>
+      <sub>Cluster interne</sub>
+    </td>
+  </tr>
+</table>
 
 ---
 
-## 🖥️ Monitoring & activité
+## Objectif du projet
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api
-    ?username=LindaProjectDev
-    &show_icons=true
-    &hide_border=true
-    &bg_color=0d1117
-    &title_color=ff2fa0
-    &icon_color=ff2fa0
-    &text_color=c9d1d9
-  "/>
-</p>
+**LUNA** est une application web conçue et déployée dans le cadre de l’**ECF Administrateur Système DevOps**.  
+Le projet démontre la **mise en œuvre complète d’une chaîne DevOps**, du provisioning cloud jusqu’à l’exploitation supervisée.
 
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com
-    ?user=LindaProjectDev
-    &theme=dark
-    &ring=ff2fa0
-    &fire=ff2fa0
-    &currStreakLabel=ff2fa0
-    &hide_border=true
-  "/>
-</p>
+**Focus :**
+- Automatisation
+- Conteneurisation
+- Orchestration Kubernetes
+- Déploiement continu
+- Observabilité (logs & métriques)
 
 ---
 
-## 🛠️ Stack & outils
+## Architecture générale (immersive)
 
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=js,ts,python,vue,react,node,docker,linux,git&theme=dark" />
-</p>
-
----
-
-## 🌒 Philosophie
-
-> *Ce qui n’est pas observable n’est pas maîtrisable.*  
-> *Ce qui est maîtrisé peut évoluer.*
-
----
-
-<p align="center" style="color:#ff2fa0;">
-  🌙 Luna — construire avec sens, mesurer avec rigueur
-</p>
+```mermaid
+%%{init: {"theme":"base","themeVariables":{
+  "primaryColor":"#ff2fa0",
+  "primaryTextColor":"#0b0b10",
+  "primaryBorderColor":"#ff2fa0",
+  "lineColor":"#ff2fa0",
+  "secondaryColor":"#0b0b10",
+  "tertiaryColor":"#141422",
+  "fontFamily":"Inter, ui-sans-serif, system-ui"
+}}}%%
+flowchart LR
+  U[User] -->|HTTPS| FE[Nginx / Frontend]
+  FE -->|REST| API[Spring Boot API :8080]
+  API -->|logs| ELK[(Elasticsearch)]
+  ELK --> KIB[Kibana]
+  API -->|metrics| PROM[Prometheus]
+  PROM --> GRAF[Grafana]
+  subgraph AWS[AWS - Free Tier]
+    EC2[EC2 instance] --> K3S[k3s cluster]
+    K3S --> FE
+    K3S --> API
+  end
